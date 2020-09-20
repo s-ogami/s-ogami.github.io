@@ -1,6 +1,8 @@
 <html>
-	<head>
-<title>Sari Ogami</title>
+<head>
+	<title>
+		Sari Ogami
+	</title>
 		<style>
 			#header{
 				background-color: lightblue;
@@ -8,10 +10,35 @@
 				height:50px;
 				text-align: center;
 			}
+
+			#sidebar-left{
+				float:left;
+				width:15%;
+				background-color: red;
+			}
+
+			#main{
+				float:left;
+				width:70%;
+				background-color: lightgray;
+			}
+
+			#sidebar-right{
+				float:left;
+				width:15%;
+				background-color: red;
+			}
+
+			#sidebar-left, #main, #sidebar-right{
+				min-height: 600px				
+			}
+
 		</style>
 	</head>
-<body>
-		<div id="header">Sari Ogami</div>
+	<body>
+		<div id="header">Header</div>
+		<div id="sidebar-left">Left</div>
+		<div id="main">Main</div>
+		<div id="sidebar-right">Right</div>
 	</body>
-
 </html>
