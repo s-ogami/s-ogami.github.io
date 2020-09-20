@@ -1,4 +1,6 @@
 title: Sari Ogami
 github:
 is_project_page: false
+github:
+is_user_page: false
 theme: jekyll-theme-minimal
